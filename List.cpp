@@ -13,6 +13,7 @@ List::~List(void)
 {
 }
 
+/* List function */
 bool List::IsEmpty () { return size==0;}
 bool List::IsFull () {return (size == MaxSize); }
 
